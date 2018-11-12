@@ -1,0 +1,139 @@
+body{
+  /* position: absolute; */
+  left:0;
+  right:0;
+  top:0;
+  width:1900px;
+  margin: auto;
+  background:url("images/universe2.jpg") no-repeat center top;
+  background-attachment: fixed;
+  color:white;
+}
+*{
+  box-sizing: border-box;
+  font-family:Comic sans MS;
+}
+#wrap{
+  width:1900px;
+  height:1200px;
+
+
+}
+#title{
+
+  width:1900px;
+  text-align:center;
+  margin-top:30px;
+  font-size:1.5rem;
+  color:rgba(255,255,255,0.9);
+  font-family:Comic sans MS;
+}
+.box {
+  width:200px;
+
+
+}
+
+#banner{
+
+  width:auto;
+  margin-top:50px;
+  display:flex;
+
+  justify-content: center;
+  height:auto;
+  text-align: center;
+  font-size:2rem;
+
+
+}
+
+#banner_names{
+  width:200px;
+  font-size: 1.2rem;
+  font-weight: bold;
+
+}
+
+#banner_imgs{
+  width:125px;
+  height:125px;
+  border-radius: 50%;
+}
+
+#Kurzgesagt{
+  width:200px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container1, .container2{
+  display:none;
+  position: relative;
+  left:99px;
+  top:10px;
+  width:1702px;
+  height:1200px;
+  border:1px solid gray;
+}
+
+.main1 , .main2{
+  position: absolute;
+  float:left;
+  left:250px;
+  top:0px;
+  width:1200px;
+  height:1200px;
+  border:2px solid gray;
+  background-color: rgba(0,0,0,0.5);
+}
+
+
+.nav1 , .nav2{
+  position: absolute;
+  left:0;
+  width:250px;
+  height:1200px;
+  float:left;
+  border:1px solid white;
+}
+
+.aside1 , .aside2{
+  position: absolute;
+  left:1450px;
+  top:0px;
+  float:right;
+  width:250px;
+  height:1200px;
+}
+
+
+#news{
+
+  text-align: center;
+  height:100px;
+}
+#news_img{
+
+
+}
+#news_img{
+  position: relative;
+  left:0px;
+  top:10px;
+  width:50px;
+  height:50px;
+  display: inline;
+}
+#news_title{
+  display: inline;
+  font-size:2rem;
+  font-weight: bold;
+
+}
+
+#flip1, #flip2{
+  height: 220px;
+
+
+}
