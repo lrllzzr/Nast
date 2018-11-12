@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#flip").hover(function(){
+    $("#flip1").hover(function(){
         $(".container1").toggle();
     });
 });
@@ -9,7 +9,6 @@ $(document).ready(function(){
         $(".container2").toggle();
     });
 });
-
 
 
 

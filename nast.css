@@ -28,9 +28,9 @@ body{
   color:rgba(255,255,255,0.9);
   font-family:Comic sans MS;
 }
+
 .box {
   width:200px;
-
 
 }
 
@@ -44,7 +44,6 @@ body{
   height:auto;
   text-align: center;
   font-size:2rem;
-
 
 }
 
@@ -113,15 +112,12 @@ body{
   text-align: center;
   height:100px;
 }
-#news_img{
 
-
-}
 #news_img{
   position: relative;
   left:0px;
   top:10px;
-  width:50px;
+  width:100px;
   height:50px;
   display: inline;
 }
@@ -129,6 +125,7 @@ body{
   display: inline;
   font-size:2rem;
   font-weight: bold;
+  color:white;
 
 }
 
