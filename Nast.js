@@ -1,15 +1,14 @@
-$(document).ready(function(){
-    $("#flip1").hover(function(){
-        $(".container1").toggle();
-    });
-});
-
-$(document).ready(function(){
-    $("#flip2").hover(function(){
-        $(".container2").toggle();
-    });
-});
-
+// $(document).ready(function(){
+//     $("#flip1").mouseover(function(){
+//         $(".container1").toggle();
+//     });
+// });
+//
+// $(document).ready(function(){
+//     $("#flip2").mouseover(function(){
+//         $(".container2").toggle();
+//     });
+// });
 
 
 function SetTitle() {
