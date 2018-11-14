@@ -5,7 +5,6 @@ body{
   top:0;
   width:1900px;
   margin: auto;
-  background:url("images/universe2.jpg") no-repeat center top;
   background-attachment: fixed;
   color:white;
 }
@@ -13,6 +12,7 @@ body{
   box-sizing: content-box;
   font-family:Comic sans MS;
   text-decoration: none;
+  font-weight: bold;
 }
 
 a{
@@ -90,7 +90,7 @@ justify-content: center;
 #banner_imgs{
   width:125px;
   height:125px;
-  border-radius: 50%;
+  border-radius: 80px;
 }
 
 #Kurzgesagt{
@@ -109,7 +109,7 @@ justify-content: center;
 }
 
 .main{
-  border-radius: 5%;
+  border-radius: 100px;
   position: absolute;
   float:left;
   left:250px;
@@ -117,8 +117,48 @@ justify-content: center;
   width:1200px;
   height:auto;
   border:3px solid white;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
 
+}
+#basic1 img{
+  border-radius: 20px;
+  width:500px;
+  height:350px;
+
+}
+/* shake start*/
+#title:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+  color:rgba(255,255,255,0.8);
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+
+}
+/* shake end*/
+
+#basic1{
+  padding: 35px;
+  padding-bottom: 0px;
+  text-align: center;
 }
 
 #news{
@@ -156,19 +196,51 @@ justify-content: center;
   height:auto;
   /* border : 1px solid white; */
 }
-
-#basic1 img{
-  border-radius: 5%;
-  width:500px;
-  height:350px;
-
+.main_title{
+  text-align: center;
+  font-weight: bold;
+  padding:30px;
+  font-size: 3rem;
 }
-
-#basic1{
-  padding: 35px;
-  padding-bottom: 0px;
+.main_image{
   text-align: center;
 }
+.main_image img{
+  width:400px;
+  height:400px;
+  margin:20px;
+  border-radius: 20px;
+}
+
+#moon_FB{
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+    font-weight: bold;
+    padding:10px;
+}
+
+
+.main_content{
+  font-family: Comic Sans MS;
+  color: rgba(255,255,255,0.85);
+  font-weight: normal;
+  line-height:40px;
+  word-spacing: 1.5px;
+  letter-spacing: 1px;
+  padding:30px;
+  padding-top:0;
+  font-size: 1.35rem;
+  max-width: 1200px;
+}
+.main_content{
+    color: rgba(255,255,255,0.85);
+    font-weight: bold;
+}
+
+
+
+
 
       /* <-- 떠오르기 --> */
 .box {
@@ -281,38 +353,40 @@ justify-content: center;
 #basic1:hover{
   color:#80b3ff;
 }
-.from a:hover{
-  color:#80b3ff;
-}
+
 
 
 .nav{
-  border-radius: 30%;
+  border-radius: 40px;
   position: fixed;
   left:50px;
   top:500px;
   width:250px;
-  height:250px;
+  height:auto;
   float:left;
-  border:2px dashed white;
-
+  border:2px solid white;
 }
 
 .nav li{
   padding:10px;
   color:white;
-  list-style: none;
-  list-style-image: url('images/SunglassSun15px.jpg');
+  /* list-style: none; */
   position: relative;
-  left:45px;
-  top:45px;
+  left:15px;
+  top:0px;
 
 }
 .nav a{
-
+  font-weight: bold;
   font-size:1.3rem;
   color:white;
 
+}
+.nav a:hover{
+  color:#80b3ff;
+}
+.nav li:hover{
+  color:#80b3ff;
 }
 
 .aside{
@@ -325,8 +399,12 @@ justify-content: center;
 }
 
 .from{
+  font-size: 0.8rem;
   text-decoration: underline;
-  float:right;
-  position: relative;
-  right:20px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.from a:hover{
+  color:#80b3ff;
 }

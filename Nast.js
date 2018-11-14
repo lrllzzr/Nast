@@ -9,7 +9,27 @@
 //         $(".container2").toggle();
 //     });
 // });
+document.title = 'Welcome!'
 
+
+
+
+  $( function() {
+    $( "#tabs" ).tabs({
+      event: "mouseover"
+    });
+  } );
+
+
+var sun = ['태양','태양의 구성','태양의 수명','태양계']
+function sun_list(i){
+document.write(sun[i]);
+}
+
+var moon = ['달','달의 탄생','달은 인공물질?']
+function moon_list(i){
+document.write(moon[i]);
+}
 
 function SetTitle() {
 document.write('<div id="title">Astronomy World</div>');
