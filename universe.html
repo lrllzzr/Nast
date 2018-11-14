@@ -15,6 +15,10 @@
       background:url("images/background_2.jpg") no-repeat center top;
       background-attachment: fixed;
     }
+    .nav{
+      width:300px;
+      left:0px;
+    }
     </style>
 <script type="text/javascript">
 
@@ -118,10 +122,18 @@
   <div class="nav">
 
     <ul>
-   <li><a href="#tabs-1"><script>sun_list(0);</script></a></li>
-   <li><a href="#tabs-2"><script>sun_list(1);</script></a></li>
-   <li><a href="#tabs-3"><script>sun_list(2);</script></a></li>
-   <li><a href="#tabs-4"><script>sun_list(3)</script></a></li>
+<script>
+
+</script>
+   <li><a href="#tabs-1"><script>get_list(universe[0]);</script></a></li>
+   <li><a href="#tabs-2"><script>get_list(universe[1]);</script></a></li>
+   <li><a href="#tabs-3"><script>get_list(universe[2]);</script></a></li>
+   <li><a href="#tabs-4"><script>get_list(universe[3]);</script></a></li>
+
+
+
+
+
    </ul>
   </div>
 
@@ -129,23 +141,68 @@
 
   <div id="tabs-1">
 <div class="main">
-    <div class="main_title">태양</div>
-            <div class="main_image">
-              <img src="images/sun_main.jpeg">
-            </div>
-              <div class="main_content">
+    <div class="main_title">
+      <script>get_list(universe[0]);</script>
+    </div>
 
+              <div class="main_content">
+                <p>
+                1. 방패자리 UY별/ UY Scuti (태양의1,708배) <br>
+                <div class="main_image">
+                  <img src="images/scuti.jpg" style=" width : 700px; height:500px">
+                </div>
+방패자리 UY 별은 적색 초성성이거나 극대거성으로 방패자리의 변광성이다. 이제껏 알려진 별 중에서 가장 큰 별로, 태양 반지름의 1,708배에 달한다. 지름은 24억km(16AU)이고, 부피는 태양의 50억 배다. 지구에서 가장 가까운 극대거성의 하나로 거리는 약 9,500광년이다. 만약 태양 자리에다 갖다놓는다면 그 광구는 목성 궤도를 삼키고 거의 토성에까지 육박하는 크기다.
+</p>
+<p>
+<br>
+  2. 백조자리 NML 별/ NML Cygni (1,650배) <br>
+  <div class="main_image">
+    <img src="images/starbig_2.jpg" style=" width : 700px; height:500px">
+  </div>
+백조자리 NML 별은 특이하게도 성운으로 둘러싸여 있는 극대거성이다. 크기는 태양의 1,650배, 15.3AU, 2,295,000,000km에 이른다. 태양 자리에다 놓는다면 항성 표면이 목성 궤도를 넘어 토성 궤도 중간까지 육박할 것이다. 부피는 태양의 45억 배에 달한다.
+
+</p>
+<br>
+<p>
+  3. WOH G64 (1,540배) <br>
+  <div class="main_image">
+    <img src="images/starbig_3.jpg" style=" width : 700px; height:500px">
+  </div>
+　WOH G64는 우리 은하의 동반 은하인 대마젤란 성운에서 발견된 항성들 중 가장 큰 별로, 황새치자리 방향으로 지구에서 약 16만 3천 광년 떨어진 곳에 있다. 크기는 태양반경의 1,540배로 만약 태양 자리에 끌어다놓는다면 항성 표면은 토성 궤도까지 미칠 것이다. 이 별의 주위에는 반지름이 최소 120AU(천문단위)~ 최대 30,000AU에 이르는 도넛 모양의 두터운 가스 물질이 둘러싸고 있는데, 물질의 총질량은 태양의 3~9배에 이른다.
+
+</p>
+<br>
+
+                아래는 반지름이 작은 순서대로 정렬한 그림이다. 반지름 순위에서 상위권을 차지하는 별들은 극대거성이나 적색초거성이다. 이들은 관측방법에 따라 측정값이 달라지기도 한다. <br>
+아래 목록 중 상위를 차지하는 별들의 반지름은 막대하게 크기 때문에, 만약 이 별들을 우리 태양 대신 태양계 중앙에 놓는다고 가정하면, 그 표면이 보통 목성 궤도를 전후하여 미치는 경우가 많다. 그러나 이들은 덩치와 비교하면 밀도는 매우 희박하다.
+<div class="main_image">
+  <img src="images/stars_big.png" style=" width : 1000px; height:700px">
+</div>
+                천체들의 크기를 보여주는 그림 <br>
+                1. 수성 < 화성 < 금성 < 지구  <br>
+                2. 지구 < 해왕성 < 천왕성 < 토성 < 목성  <br>
+                3. 목성 < 프록시마 센타우리 < 태양 < 시리우스  <br>
+                4. 시리우스 < 폴룩스 < 아크투르스 < 알데바란  <br>
+                5. 알데바란 < 리겔 < 안타레스 < 베텔게우스  <br>
+                6. 베텔게우스 < 큰개자리 VY < 백조자리 NML < 방패자리 UY <br>
               </div>
+              <div class="from">
+                <a href= "https://ko.wikipedia.org/wiki/%EB%B0%98%EC%A7%80%EB%A6%84%EC%88%9C_%ED%95%AD%EC%84%B1_%EB%AA%A9%EB%A1%9D"  target="blank"><h2>출처: https://ko.wikipedia.org/wiki</h2></a>
+                 </div>
     </div>
   </div>
 
     <div id="tabs-2">
       <div class="main">
-        <div class="main_title">태양의 구성</div>
+        <div class="main_title">
+          <script>get_list(universe[1]);</script>
+        </div>
               <div class="main_image">
-                <img src="images/sun_구조.jpg">
+                <img src="images/kum.jpg" style="width:700px; height:500px;">
               </div>
                 <div class="main_content">
+                  신기하게도 금성은 자전축을 중심으로 한 바퀴(자전) 돌기도 전에 먼저 태양 주위를 한 바퀴(공전) 돌기 때문에 금성에서의 하루는 지구의 일년과 비슷하다고 합니다. <br>
+    예를 들어 금성에서는 제2차 세계대전이 불과 3개월 전 쯤에 끝난 것이나 다름없는데요. 금성에 있으면 진짜 말 그대로 하루가 일년처럼 느껴지겠네요.
 
                 </div>
     </div>
@@ -153,39 +210,124 @@
 
     <div id="tabs-3">
       <div class="main">
-      <div class="main_title">종말 : 태양의 수명</div>
-              <div class="main_image">
-                <img src="images/sun_life.png" style= "width:1000px; height:200px;">
-              </div>
+      <div class="main_title">
+        <script>get_list(universe[2]);</script>
+      </div>
+
                 <div class="main_content">
+                  <div class="main_image">
+                    <img src="images/diamond_africa.jpg" style= "width:600px; height:300px;">
+                  </div>
+                  세계에서 가장 큰 다이아몬드는 무엇일까요. 남아프리카의 프리미어 광산에서 채굴된 ‘The golden jubilee diamond’로 무려 약 545.67캐럿이라고 합니다. 109g 정도입니다. <br>
+                  그런데 이를 압도하는 초 거대 다이아몬드가 등장했습니다. <br> <br>
+                  <div class="main_image">
+                      <div id="moon_FB">
+                        <img src="images/diamond.jpg" style= "width:700px; height:500px;">
+                        <br>
+                        'Lucy' 상상도
+                      </div>
+                  </div>
+                  <p>
+                  2004년 2월, BBC는 하버드-스미소니언 천체물리학 센터의 과학자들이 무려 수백경 캐럿에 달하는 다이아몬드 별을 발견했다고 발표했습니다. ‘BPM 37093’입니다. 이 별은 비틀즈의 노래 ‘Lucy in the sky with diamonds’에서 따온 별칭 ‘Lucy’로 불립니다. <br>
+                </p>
+                <p>
+                  별이 여러 단계를 거쳐 ‘백색왜성’이 되었을 때 내부의 탄소가 결정화하면 다이아몬드 별이 될 수 있습니다. ‘BPM 37093’이 그렇습니다. BBC의 보도에서 연구를 맡은 하버드-스미소니언 천체물리학 센터의 천문학자 Travis Metcalfe는 “이 백색왜성은 내부의 탄소가 결정화되어 있는 우리 은하에서 가장 큰 다이아몬드라는 사실을 알아냈다”고 밝혔습니다.
+                  </p>
+                  <p>
+                    Travis Metcalfe의 연구에 따르면 태양 질량의 약 1.1배인 루시는 약 90%가 다이아몬드로 이루어져 있다고 합니다(Asteroseismology of the Crystallized ZZ Ceti Star BPM 37093: A Different View. The Astrophysical Journal, Volume 622, Issue 1, pp. 572-576.).  <br>
+                    </p>
+<p>
+이를 근거로 계산해보면 루시의 다이아몬드 부분은 약 1.96911 x 10^30kg입니다. 어마어마하죠. 이를 캐럿으로 환산하면 984,555 x 10^28캐럿입니다.
 
+시세의 변동이 있는 보석임을 감안하여 1캐럿을 400만 원이라 가정했습니다. 국내 다이아몬드 전문 업체 ‘한국다이아몬드센터’에 자문해 얻은 기준입니다.
+</p>
+<p>
+ 이렇게 계산하면 3,938,220 x 10^30만 원입니다. <br>
+
+
+
+풀어쓰면  3,938,220,000,000,000,000,000,000,000,000,000,000원입니다. ‘천문학적’이라는 말이 확 와닿으실 겁니다.
+</p>
                 </div>
-                <div class="from">
-                  <a href= ""  target="blank"><h2>출처:</h2></a>
-
-                   </div>
 
     </div>
 
 </div>
 
-<div id="tabs-4">
-  <div class="main">
-  <div class="main_title">태양계</div>
-          <div class="main_image">
-            <img src="images/solarsystem.jpg" style= "width:552px; height:325px;">
-          </div>
-            <div class="main_content">
 
+  <div id="tabs-4">
+    <div class="main">
+    <div class="main_title">
+      <script>get_list(universe[3]);</script>
+    </div>
+            <div class="main_image">
+              <img src="images/universe_elevator.JPG" style= "width:700px; height:500px;">
             </div>
-            <div class="from">
-              <a href= ""  target="blank"><h2>출처:</h2></a>
+              <div class="main_content">
+                <p>
+                현재 우주로 가는 유일한 방법은 로켓을 타고 가는 것이다. 그런데 로켓이 지구 궤도를 벗어나려면 엄청난 힘이 있어야 한다. 과학자들이 계산해본 결과, 초당 11.2km의 속도로 날아갈 수 있는 추진력이 필요하다. 이를 제2 우주속도라고 한다. 자칫하면 도중에 폭발할 위험도 있다. 좀 더 쉽게 우주로 가는 방법은 없을까? 이런 발상에서 과학자와 엔지니어들이 연구하고 있는 기발한 방식이 있다. 우주까지 올라갈 엘리베이터를 만들면 어떠냐는 아이디어다. <br>
+              </p>
+              <p>
+                지상에서 이용하는 엘리베이터처럼 지구에서 우주의 특정 지점까지 케이블을 연결하고, 여기에 승객이나 화물을 실어나를 컨테이너를 설치해 우주를 왕복한다는 개념이다. 우스꽝스럽게 보이기도 하는 이 발상이 나온 건 지금으로부터 100년도 훨씬 넘은 19세기 말이다. 로켓의 아버지로 불리는 옛 소련 과학자 콘스탄틴 치올코프스키가 1895년 처음 공개적으로 제안했다. 당시 그는 하늘 높이 솟아오른 파리의 에펠탑에서 영감을 받아 이를 떠올렸다고 한다.
+              </p>
+              <div class="main_image">
+                <img src="images/universe_elevator2.JPG" style= "width:700px; height:500px;">
+              </div>
+              <p>
+                치올코프스키의 제안이 나온 지 120여년만에 처음으로 우주공간에서 우주엘리베이터 예비실험이 이뤄진다. <br>
+                 일본 우주항공연구개발기구(JAXA)는 지난 23일 새벽 2시52분 가고시마현 다네가시마 우주센터에서 국제우주정거장을 향해 화물우주선 ‘고노토리 7호기’를 발사했다. <br>
+                 </p>
+                 <p>
+                이 우주선엔 우주정거장 비행사들에게 보낼 보급품과 함께, 우주엘리베이터 예비실험에 쓸 10cm 크기의 초소형 위성(큐브샛) ‘스타스-미(stars-me)’ 2기가 탑재돼 있다.
+　위성제작자인 시즈오카대 연구진은 조만간 이 위성을 우주공간으로 다시 내보내, 두 위성을 연결하는 길이 10m의 강철 케이블 위에서 미니 엘리베이터를 작동시켜 볼 계획이다. 케이블 위에서 두 위성 사이를 왕복할 미니 엘리베이터의 크기는 가로 세로 각 3㎝에, 높이 6㎝다. 시험작동 장면은 위성에 내장된 카메라로 촬영한다.
+              </p>
+              <div class="main_image">
+                <img src="images/universe_elevator3.JPG" style= "width:700px; height:500px;">
+              </div>
+              <p>
+                우주엘리베이터는 고도 3만6000㎞ 높이의 정지궤도에 설치하는 것을 목표로 한다. 왜 이 높이에 설치하려 할까? 이 높이에서 지구가 지상으로 끌어들이는 중력과 위성이 바깥으로 달아나려는 원심력이 균형을 이루기가 쉽기 때문이다. 이곳에 위성을 띄워 지구와 같은 속도로 움직이게 하고 케이블을 연결하면 우주엘리베이터를 안정적으로 운영할 수 있다. <br>
+                </p>
+                <p>
+                 우주엘리베이터 건설은 아래로부터 쌓아 올라가는 게 아니라 위성에서 케이블을 아래로 늘어뜨리는 방식으로 진행된다. 아래서부터 쌓아올리면 지구 중력을 견뎌내지 못한다. <br>
+                위에서 케이블을 내려뜨릴 때도 지구 반대방향으로 추가 달린 케이블을 같이 늘어뜨려 중력과 원심력이 균형을 이루도록 해줘야 한다. <br>
+                </p>
+                <p>
+                물론 이번 실험은 그야말로 아주 작은 첫 걸음에 불과하다. 우주엘리베이터가 현실화하려면 숱한 난관을 거쳐야 한다. 가장 큰 난관은 우주의 혹독한 환경을 버텨낼 수 있는 강력한 케이블을 만들 수 있느냐는 것이다.
+                연구진은 적어도 강철보다 100배는 튼튼해야 할 것으로 본다. 탄소나노 튜브가 강력한 후보로 거론되지만, 우주에서 엄청난 지구의 중력을 견뎌낼 수 있는지는 아직 증명되지 않았다. 또 탄소나노튜브로 길다란 케이블을 만들 수 있는 제작기술도 아직 확보하지 못한 상태다.
+                </p>
+                <p>
+                 미국의 우주개발업체 스페이스엑스의 최고경영자 일론 머스크는 이 점을 근거로 우주엘리베이터 구상에 부정적인 입장을 취하고 있다. 그는 자신의 트위터에서 “인도교보다 더 긴 탄소나노튜브를 만들기 전까진 나한테 우주 엘리베이터에 관해 묻지 말라”는 반응을 보인 바 있다. 우주엘리베이터에 전기를 공급하고, 우주를 떠돌아다니는 우주 쓰레기나 운석과의 충돌을 피할 수 있는 방법도 내놓아야 한다.
+                </p>
+                <p>
+                  기술적 장벽이 높은 우주엘리베이터에 도전하려는 이유는 뭘까? <br>
+                  과학자들은 가장 큰 이유로 비용 절감을 든다. 로켓으로 우주에 사람과 화물을 보내려면 보통 운송비가 kg당 2만2000달러(약 2400만원)에 이른다. 하지만 우주엘리베이터를 이용하면 kg당 200달러(22만원)면 가능할 것이라고 말한다. 실현만 된다면 우주활동이 활발해질 미래에 우주엘리베이터는 우주로 가는 최고의 지름길이 될 수 있다.
+                  </p>
+                  <p>
+                   둘째는 높은 안전성이다. 케이블에 고정돼 있는 만큼 위성을 발사하는 것보다 훨씬 안전하다. 로켓을 쓰지 않으니 폭발 위험도 없다. 연구진은 우주엘리베이터가 실현되면 시속 200km의 속도로 8일 후 국제우주정거장에 도착할 것으로 기대한다고 밝혔다.
+                   </p>
+                   <p>
+                     이 프로젝트의 기술 자문을 맡고 있는 일본의 건설업체 오바야시구미는 2050년까지 우주 엘리베이터를 공급할 것이라는 구상을 2014년 이미 발표한 바 있다. 이 구상에 따르면 오바야시의 우주엘리베이터는 타원형 객실 6대로 구성돼 있다. 각 객실은 30명을 수용할 수 있다. 우주엘리베이터에 사용되는 케이블 총 길이는 반대편 평형 추까지 포함해 9만6000km. <br>
+                     잠정적으로 추정한 총 건설비용은 90억달러(10조원)다.
+                   </p>
 
-               </div>
+              </div>
 
-</div>
+              <div class="from">
+                <a href= "http://www.hani.co.kr/arti/science/future/863714.html#csidx2e8ce1ab07e9e1ea3ed1ac18a89ab46 "  target="blank"><h2>출처: 한겨례신문</h2></a>
 
-</div>
+                 </div>
+
+  </div>
+
+  </div>
+
+  <div id="tabs-5">
+
+  </div>
+
+
+
+
 
 <footer>
   <div class="from">

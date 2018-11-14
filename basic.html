@@ -12,8 +12,12 @@
 
     <style media="screen">
     body{
-      background:url("images/wow.jpg") no-repeat center top;
+      background:url("images/background_2.jpg") no-repeat center top;
       background-attachment: fixed;
+    }
+    .nav{
+      width:300px;
+      left:20px;
     }
     </style>
 <script type="text/javascript">
@@ -118,10 +122,19 @@
   <div class="nav">
 
     <ul>
-   <li><a href="#tabs-1"><script>sun_list(0);</script></a></li>
-   <li><a href="#tabs-2"><script>sun_list(1);</script></a></li>
-   <li><a href="#tabs-3"><script>sun_list(2);</script></a></li>
-   <li><a href="#tabs-4"><script>sun_list(3)</script></a></li>
+<script>
+
+</script>
+   <li><a href="#tabs-1"><script>get_list(universe[0]);</script></a></li>
+   <li><a href="#tabs-2"><script>get_list(universe[1]);</script></a></li>
+   <li><a href="#tabs-3"><script>get_list(universe[2]);</script></a></li>
+   <li><a href="#tabs-4"><script>get_list(universe[3]);</script></a></li>
+   <li><a href="#tabs-5"><script>get_list(universe[4]);</script></a></li>
+   <li><a href="#tabs-6"><script>get_list(universe[5]);</script></a></li>
+   <li><a href="#tabs-7"><script>get_list(universe[6]);</script></a></li>
+   
+
+
    </ul>
   </div>
 
@@ -129,7 +142,9 @@
 
   <div id="tabs-1">
 <div class="main">
-    <div class="main_title">태양</div>
+    <div class="main_title">
+      <script>get_list(universe[0]);</script>
+    </div>
             <div class="main_image">
               <img src="images/sun_main.jpeg">
             </div>
@@ -141,7 +156,9 @@
 
     <div id="tabs-2">
       <div class="main">
-        <div class="main_title">태양의 구성</div>
+        <div class="main_title">
+          <script>get_list(universe[1]);</script>
+        </div>
               <div class="main_image">
                 <img src="images/sun_구조.jpg">
               </div>
@@ -153,7 +170,9 @@
 
     <div id="tabs-3">
       <div class="main">
-      <div class="main_title">종말 : 태양의 수명</div>
+      <div class="main_title">
+        <script>get_list(universe[2]);</script>
+      </div>
               <div class="main_image">
                 <img src="images/sun_life.png" style= "width:1000px; height:200px;">
               </div>
@@ -171,7 +190,9 @@
 
 <div id="tabs-4">
   <div class="main">
-  <div class="main_title">태양계</div>
+  <div class="main_title">
+    <script>get_list(universe[3]);</script>
+  </div>
           <div class="main_image">
             <img src="images/solarsystem.jpg" style= "width:552px; height:325px;">
           </div>

@@ -215,9 +215,10 @@ justify-content: center;
 #moon_FB{
   display: inline-block;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
     font-weight: bold;
     padding:10px;
+    padding-top:0;
 }
 
 
@@ -228,7 +229,7 @@ justify-content: center;
   line-height:40px;
   word-spacing: 1.5px;
   letter-spacing: 1px;
-  padding:30px;
+  padding:50px;
   padding-top:0;
   font-size: 1.35rem;
   max-width: 1200px;
@@ -354,6 +355,9 @@ justify-content: center;
   color:#80b3ff;
 }
 
+#sudden{
+  text-decoration: underline;
+}
 
 
 .nav{

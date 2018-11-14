@@ -20,22 +20,27 @@ document.title = 'Welcome!'
     });
   } );
 
+function get_list(name){
+  document.write(name);
+}
 
-var sun = ['태양','태양의 구성','태양의 수명','태양계']
+function SetTitle() {
+  document.write('<div id="title">Astronomy World</div>');
+}
+
+var banner = ['Main','Sun','Moon','About Universe','Theory of relativity','Awesome stories'];
+var sun = ['태양','태양의 구성','태양의 수명','태양계','햇빛의 나이는?']
+var universe = ['우주에서 가장 큰 별','금성의 하루는 일년?','가장 큰 다이아몬드?','우주 엘레베이터']
+var moon = ['달','달의 탄생','달은 인공물질?']
+var theory = ['상대성이론이란?','시공간의 왜곡','쌍둥이 역설','빛보다 빠른 우주선?']
+
 function sun_list(i){
 document.write(sun[i]);
 }
 
-var moon = ['달','달의 탄생','달은 인공물질?']
 function moon_list(i){
 document.write(moon[i]);
 }
-
-function SetTitle() {
-document.write('<div id="title">Astronomy World</div>');
-}
-
-var banner = ['Main','Sun','Moon','Universe','Theory of relativity','Kurzgesagt'];
 
 function Set_banner_name(i){
   document.write('<div id="banner_names">'+banner[i]+'</div>');
