@@ -412,3 +412,21 @@ justify-content: center;
 .from a:hover{
   color:#80b3ff;
 }
+
+#gotop{
+  width:100px;
+  height:30px;
+  font-size:1.2rem;
+  text-align: center;
+  border:1px solid white;
+  position: fixed;
+  right:180px;
+  bottom:100px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 10px;
+}
+
+#gotop:hover {
+  color:#80b3ff;
+  
+}
