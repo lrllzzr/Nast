@@ -30,7 +30,7 @@ var banner = ['Main','Sun','Moon','About Universe','Theory of relativity','Aweso
 var sun = ['태양','태양의 구성','태양의 수명','태양계','햇빛의 나이는?','달이 1px 이라면']
 var universe = ['우주에서 가장 큰 별','금성의 하루는 일년?','가장 큰 다이아몬드?','우주 엘레베이터']
 var moon = ['달','달의 탄생','달은 인공물질?']
-var theory = ['상대성이론이란?','시공간의 왜곡','쌍둥이 역설','빛보다 빠른 우주선?']
+var theory = ['상대성이론이란?','시공간의 왜곡','빛보다 빠른 우주선?','쌍둥이 역설']
 
 function sun_list(i){
 document.write(sun[i]);
