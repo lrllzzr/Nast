@@ -41,10 +41,6 @@ document.title = 'Welcome!'
      //
      // });
 
-$('#sudden').text('영상 보기');
-
-
-
 
   $( function() {
     $( "#tabs" ).tabs({
