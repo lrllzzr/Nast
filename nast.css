@@ -124,10 +124,13 @@ justify-content: center;
   border-radius: 20px;
   width:500px;
   height:350px;
-
+}
+#title_ast{
+  display: inline-block;
 }
 /* shake start*/
-#title:hover {
+
+#title_ast:hover {
   animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
   backface-visibility: hidden;
