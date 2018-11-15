@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+
+    <link rel="stylesheet" href="nast.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="Nast.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <meta charset="utf-8">
+    <title></title>
+
+    <style media="screen">
+    body{
+      background:url("images/background_2.jpg") no-repeat center top;
+      background-attachment: fixed;
+    }
+    .nav{
+      width:300px;
+      left:20px;
+    }
+    .main_content a{
+      text-decoration: underline;
+    }
+
+    </style>
+<script type="text/javascript">
+
+</script>
+  </head>
+  <body>
+    <div id="wrap">
+<header>
+
+  <a href="index.html">
+<div id="title">
+<script type="text/javascript">
+  SetTitle();
+</script>
+</div>
+</a>
+
+<div id="banner">
+
+<div id="flip1">
+<a href = "index.html">
+  <div class="box">
+    <script type="text/javascript">
+      Set_banner_Main_image();
+      Set_banner_name(0);
+    </script>
+  </div>
+</a>
+  </div>
+
+
+<div id="flip2">
+  <a href="sun.html">
+  <div class="box">
+    <script type="text/javascript">
+      Set_banner_Sun_image();
+      Set_banner_name(1);
+    </script>
+  </div>
+</a>
+
+</div>
+
+<div id="flip3">
+  <a href="moon.html">
+  <div class="box">
+    <script type="text/javascript">
+      Set_banner_Moon_image();
+      Set_banner_name(2);
+    </script>
+  </div>
+</a>
+
+</div>
+
+<div id="flip4">
+  <a href="universe.html">
+  <div class="box">
+    <script type="text/javascript">
+      Set_banner_Universe_image();
+      Set_banner_name(3);
+    </script>
+  </div>
+</a>
+
+</div>
+
+<div id="flip5">
+  <a href="theory.html">
+  <div class="box">
+    <script type="text/javascript">
+      Set_banner_theory_image();
+      Set_banner_name(4);
+    </script>
+  </div>
+</a>
+
+</div>
+
+<div id="flip6">
+  <a href="kurz.html">
+  <div class="box">
+    <script type="text/javascript">
+      Set_banner_Kurzgesagt_image();
+      Set_banner_name(5);
+    </script>
+  </div>
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</header>
+
+
+<div class="container">
+  <!-- <div class="nav">
+
+    <ul>
+<script>
+
+</script>
+   <li><a href="#tabs-1"><script>get_list(universe[0]);</script></a></li>
+   <li><a href="#tabs-2"><script>get_list(universe[1]);</script></a></li>
+   <li><a href="#tabs-3"><script>get_list(universe[2]);</script></a></li>
+
+
+
+
+   </ul>
+  </div> -->
+
+
+
+  <div id="tabs-1">
+<div class="main">
+    <div class="main_title">
+      Awesome Universal stories <br>
+      <a id="sudden2" href="https://www.youtube.com/channel/UCsXVk37bltHxD1rDPwtNM8Q" target="blank">Youtube : 'Kurzgesagt-In a Nutshell'</a>
+
+    </div>
+            <div class="main_image">
+              <img src="images/kurz.jpg" style="width:900px; height:500px;">
+            </div>
+              <div class="main_content">
+                <ol>
+
+                <li>
+                  <p>
+                The Solar System -- our home in space
+                <br>(태양계 - 우주를 떠도는 우리들의 집)
+                <a href="https://www.youtube.com/watch?v=KsF_hdjWJjo" target="__blank">
+              <div id = "sudden">
+                영상 보기
+              </div>
+
+              </a>
+            </p>
+              </li>
+
+                <li>
+                  <p>
+                  The History and Future of Everything -- Time <br>
+                  (세상 모든 것들의 과거와 미래 - 시간)
+                  <a href="https://www.youtube.com/watch?v=2XkV6IpV2Y0" target="_blank">
+                  <div id = "sudden">
+                    영상 보기
+                  </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Three Ways to Destroy the Universe<br>
+                  (우주를 박살내는 3가지 방법)
+                  <a href="https://www.youtube.com/watch?v=4_aOIA-vyBo" target="_blank">
+                  <div id = "sudden">
+                    영상 보기
+                  </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Beginning of Everything -- The Big Bang<br>
+                  (모든 것의 시작 - 빅뱅)
+                  <a href="https://www.youtube.com/watch?v=wNDGgL73ihY" target="_blank">
+                  <div id = "sudden">
+                    영상 보기
+                  </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  How Big is the Moon? MM#1<br>
+                  (달은 얼마나 클까?)
+                  <a href="https://www.youtube.com/watch?v=Tqt9hZcWhJM" target="_blank">
+                  <div id = "sudden">
+                    영상 보기
+                  </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  The Moons of Mars Explained -- Phobos & Deimos MM#2
+                  <br>
+(화성의 위성들 - 포보스와 데이모스)
+<a href="https://www.youtube.com/watch?v=Pw0IZg7_4mo" target="_blank">
+  <div id = "sudden">
+    영상 보기
+  </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  How to catch a Dwarf Planet -- Triton MM#3
+                  <br>
+(왜소 행성을 붙잡는 방법 - 트리톤)
+<a href="https://www.youtube.com/watch?v=cR9uphgMZ8U" target="_blank">
+  <div id = "sudden">
+    영상 보기
+  </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Are You Alone? (In The Universe)
+                  <br>
+                  (우주에서 넌 혼자일까?)
+                  <a href="https://www.youtube.com/watch?v=PKMQzkIiB0Y" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Everything You Need to Know About Planet Earth
+                  <br>
+                  (당신이 지구에 대해 알아야 할 모든 것)
+                  <a href="https://www.youtube.com/watch?v=JGXi_9A__Vc&t=4s" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Atoms As Big As Mountains - Neutron Stars Explained
+                  <br>
+                  (산 만한 원자 - 중성자별)
+                  <a href="https://www.youtube.com/watch?v=ZW3aV7U-aik" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  The Fermi Paradox - Where Are All The Aliens? (1/2)
+                  <br>
+                  (페르미 역설 - 외계인은 모두 어디 있는가?)
+                  <a href="https://www.youtube.com/watch?v=sNhhvQGsMEc" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  The Fermi Paradox II - Solutions and Ideas - Where Are All The Aliens?
+                  <br>
+                  (페르미 역설 - 해결책과 아이디어 - 외계인은 모두 어디 있는가?)
+                  <a href="https://www.youtube.com/watch?v=1fQkVqno-uI" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  What if there was a black hole in your pocket?
+                  <br>
+                  (만약 당신 주머니 안에 블랙홀이 생기면 어떻게 될까?)
+                  <a href="https://www.youtube.com/watch?v=8nHBGFKLHZQ&t=49s" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  What is Dark Matter and Dark Energy?
+                  <br>
+                  (암흑 물질과 암흑 에너지는 무엇일까?)
+                  <a href="https://www.youtube.com/watch?v=QAa2O_8wBUQ" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Black Holes Explained - From Birth to Death
+                  <br>
+                  (블랙홀 - 탄생부터 죽음까지)
+                  <a href="https://www.youtube.com/watch?v=e-P5IFTqB98" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  The Last Star in the Universe - Red Dwarfs Explained
+                  <br>
+                  (우주의 마지막 별 - 적색왜성)
+                  <a href="https://www.youtube.com/watch?v=LS-VPyLaJFM" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  How Far Can We Go? Limits of Humanity
+                  <br>
+                  (우리는 얼마나 멀리 나갈 수 있을까? 인류의 한계)
+                  <a href="https://www.youtube.com/watch?v=ZL4yYHdDSWs" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  The Most Efficient Way to Destroy the Universe - False Vacuum
+                  <br>
+(우주를 박살내는 가장 효과적인 방법 - 가짜 진공)
+<a href="https://www.youtube.com/watch?v=ijFm6DxNVyI" target="_blank">
+  <div id = "sudden">
+    영상 보기
+  </div>
+
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  The Last Light Before Eternal Darkness – White Dwarfs & Black Dwarfs
+                  <br>
+                  (영원한 어둠 전의 마지막 한 줄기 빛 – 백색왜성과 흑색왜성)
+                  <a href="https://www.youtube.com/watch?v=qsN1LglrX9s" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Why Black Holes Could Delete The Universe - the Information Paradox
+                  <br>
+                  (왜 블랙홀이 우주를 지워버릴 수 있는가 - 정보의 역설)
+                  <a href="https://www.youtube.com/watch?v=yWO-cvGETRQ" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  What Happens If We Bring the Sun to Earth?
+                                    <br>
+                  (태양을 지구로 가져오면 어떻게 될까?)
+                  <a href="https://www.youtube.com/watch?v=J0ldO87Pprc" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Why Alien Life Would Be Our Doom - The Great Filter
+                  <br>
+                  (어째서 외계 생명체가 우리의 종말을 의미한다는 것일까 - 대여과기)
+                  <a href="https://youtu.be/UjtOGPJ0URM" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  The Black Hole Bomb and Black Hole Civilizations
+                  <br>
+                  (블랙홀 폭탄과 블랙홀 문명)
+                  <a href="https://www.youtube.com/watch?v=ulCdoCfw-bY" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  How We Could Build a Moon Base TODAY – Space Colonization 1
+
+                  <br>
+                  <a href="https://youtu.be/NtQkz0aRDe8" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                  (어떻게 우리는 오늘날 달에 기지를 만들 수 있는가 - 우주 식민지화 1)
+                </a>
+              </p>
+              </li>
+
+              <li>
+                <p>
+                  Wormholes Explained – Breaking Spacetime
+                  <br>
+                  (시공간을 깨부수는 웜홀)
+                  <a href="https://www.youtube.com/watch?v=9P6rdqiybaw" target="_blank">
+                    <div id = "sudden">
+                      영상 보기
+                    </div>
+                </a>
+              </p>
+              </li>
+
+</ol>
+
+
+              </div>
+              <div class="from">
+                <a href="https://kurzgesagt.org/" target="_blank">
+                출처: https://kurzgesagt.org/
+              </a>
+               </div>
+    </div>
+  </div>
+
+
+<footer>
+
+</footer>
+</div> <!--콘테이너 div -->
+
+
+
+
+<div id="gotop" style="cursor:pointer;" onclick="window.scrollTo(0,0);">TOP</div>
+</div> <!-- wrap div -->
+
+  </body>
+</html>

@@ -239,6 +239,9 @@ justify-content: center;
     font-weight: bold;
 }
 
+.main_content a:hover{
+color:#80b3ff;
+}
 
 
 
@@ -358,6 +361,16 @@ justify-content: center;
 #sudden{
   text-decoration: underline;
 }
+#sudden:hover {
+  color:#80b3ff;
+}
+
+#sudden2{
+  text-decoration: underline;
+}
+#sudden2:hover {
+  color:#80b3ff;
+}
 
 
 .nav{
@@ -403,7 +416,7 @@ justify-content: center;
 }
 
 .from{
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: underline;
   text-align: center;
   margin-bottom: 30px;

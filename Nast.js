@@ -13,6 +13,38 @@ document.title = 'Welcome!'
 
 
 
+     // $(document).ready(function() {
+     //
+     //      $.ajax({
+     //
+     //           type: 'GET',
+     //
+     //           dataType: 'jsonp',
+     //
+     //           data: {'name': 'kimyeonsuk'},
+     //
+     //           url: 'https://www.youtube.com/watch?v=KsF_hdjWJjo',
+     //
+     //           // jsonp 값을 전달할 때 사용되는 파라미터 변수명
+     //
+     //           // 이 속성을 생략하면 callback 파라미터 변수명으로 전달된다.
+     //
+     //           jsonp: 'stone',
+     //
+     //           success:function(json) {
+     //
+     //                $('.main_content a').html(json.data.name);
+     //
+     //           }
+     //
+     //      });
+     //
+     // });
+
+$('#sudden').text('영상 보기');
+
+
+
 
   $( function() {
     $( "#tabs" ).tabs({
